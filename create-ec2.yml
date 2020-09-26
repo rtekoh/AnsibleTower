@@ -13,7 +13,7 @@
       region: "{{ region }}"
       vpc_subnet_id: "{{ subnet_id }}"
       instance_role: "{{ iam_role }}"
-      state: running
+      instance_state: "running"
       wait: true
       volumes:
         - device_name: /dev/sda1
